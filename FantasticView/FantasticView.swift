@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
  
-class FantasticView {
+public class FantasticView {
 //    let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
 //    var colorCounter = 0
     
-    func printWhatever() {
+    public func printWhatever() {
         print("Whatever, It's finally show up !")
     }
 }
