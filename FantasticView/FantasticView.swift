@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
  
-public class FantasticView {
+public final class FantasticView {
 //    let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
 //    var colorCounter = 0
     
     public func tambahTambahan(a: Int, b: Int) -> Int {
-        return a+b
+        return a + b
     }
 }
