@@ -13,7 +13,7 @@ public class FantasticView {
 //    let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
 //    var colorCounter = 0
     
-    public func printWhatever() {
-        print("Whatever, It's finally show up !")
+    public func tambahTambahan(a: Int, b: Int) -> Int {
+        return a+b
     }
 }
