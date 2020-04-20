@@ -7,13 +7,10 @@
 //
 
 import Foundation
-import UIKit
- 
-public final class FantasticView {
-//    let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
-//    var colorCounter = 0
+
+public class FantasticView {
     
-    public func tambahTambahan(a: Int, b: Int) -> Int {
-        return a + b
+    public static func doSomething() -> String {
+        return "Hi There, this pod is working !"
     }
 }
