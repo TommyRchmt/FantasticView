@@ -7,10 +7,14 @@
 //
 
 import Foundation
+import TTGSnackbar
 
 public class FantasticView {
     
     public static func doSomething() -> String {
-        return "Hi There, this pod is working !"
+        let myWord = "Hi There ! Working POD"
+        let snackbar = TTGSnackbar(message: myWord, duration: .long)
+        snackbar.show()
+        return myWord
     }
 }
