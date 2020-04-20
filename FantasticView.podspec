@@ -8,7 +8,7 @@ s.summary = "FantasticView short summary"
 s.requires_arc = true
 
 # 2
-s.version = "0.7.0"
+s.version = "0.8.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -25,7 +25,7 @@ s.source = { :git => "https://github.com/TommyRchmt/FantasticView.git",
 
 # 7
 s.framework = "UIKit"
-s.dependency 'TTGSnackBar'
+s.dependency 'TTGSnackbar'
 #s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
